@@ -4,7 +4,7 @@ function List({todos}) {
  
   return (
     <ul>
-    {todos.map(todo=><li>{todo}</li>)}
+    {todos.map(todo=><li>{todo.title}</li>)}
     </ul>
   )
 }
